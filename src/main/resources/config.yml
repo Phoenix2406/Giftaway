@@ -1,0 +1,46 @@
+#######################################################
+#                                                     #
+#     Giftaway Plugin Main Configuration Section      #
+#                                                     #
+#######################################################
+
+# Change giftaway language here.
+# Available languages: en_US, ind_ID, rus_RU, and ara_SA
+language: en_US
+
+# Change giftaway prefix here.
+# Support: Color Code, Color Hex, and Unique Code
+# Note: If you want to use hex color, don't forget to
+#       give "&" symbol before hex code!
+prefix: "&7[&#1BFF00&lGiftaway&7] "
+
+# Toggle ON/OFF ChatMute for giftaway. This function is for player
+# can't spam while giftaway is started by admin or someone.
+# Available boolean: true/false (Recommended true)
+chatMute: true
+
+# Type Mode you want in giftaway system.
+# Vanilla : Use vanilla reward item in giftaway system (Auto Reward Give Item to Inventory) [Only work from 1.13.X - 1.18.X]
+# MMO : Use MMO RPG reward item in giftaway system (Auto Reward Give Item to Inventory) [Only work for MMOItems plugin]
+# Custom : Use Custom reward item message like interactivechat plugin or other message
+#          reward in giftaway system (Manual Reward Give Item to Inventory)
+# Available Mode: Vanilla, MMO, Custom
+# Note: Please restart your server to take effect change!
+TypeMode: Vanilla
+
+# Broadcast delay from other broadcast while giftaway.
+# This delay use ticks not seconds!
+# Default: 2 seconds (2 second = 40 tick) [1 second = 20 tick]
+delay: 40
+
+# Amount of online players required to giftaway
+# Default: 3
+needPlayer: 3
+
+# Toggle ON/OFF send update notification while op player or have
+# permission giftaway.admin.notification join the server.
+# Available boolean: true/false (Recommended true)
+updateNotify: true
+
+# DON'T TOUCH THIS SECTION UNLESS YOU DON'T KNOW WHAT ARE YOU DOING!
+version: 2.1
